@@ -16,6 +16,7 @@ const bookshelf = require('../bookshelf');
 // second argument: a configuration object
 const Product = bookshelf.model('Product', {
 <<<<<<< HEAD
+<<<<<<< HEAD
     tableName:'products'
 } )
 
@@ -67,3 +68,9 @@ const CartItem = bookshelf.model('CartItem',{
 
 module.exports = { Product, Category, Tag, User, CartItem }
 >>>>>>> 64408cb (first commit)
+=======
+    tableName:'products'
+} )
+
+module.exports = { Product }
+>>>>>>> ecf1a2a (updated 04)
