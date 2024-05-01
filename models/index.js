@@ -30,7 +30,7 @@ module.exports = { Product }
     },
     tags:function() {
         return this.belongsToMany('Tag');
-    }
+    } 
 } );
 
 // and model name keep to singular form of the table name
